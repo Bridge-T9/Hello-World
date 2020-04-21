@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html>
+	<head>
+		<title> My awesome webpage</title>
+		 <style>
+			#first{font-size: 16px;color: dark magenta;}
+			#second{font-size: 14px;color: blue;}
+			#third{font-size: 16px;color: gray;}
+			.name{font-weight: bold;}
+            div {
+				font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: italic;
+                background-color: teal;
+                width: 500px;
+                height: 50px;
+				border: 5px dotted white;
+            }
+			table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+        </style>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div><h1>Welcome to my page</h1></div>
+		<h2> We going green to save the planet</h2>
+		<form>
+			<input type="text" placeholder="fullname" name="name"
+			<button>SUBMIT</button>
+		</form>
+		<div id="first">
+			First, you have to <span class="name">consider</span> your intentions
+		</div>
+		
+		<div id="second">
+			Second, you have to consider your actions
+		</div>
+		
+		<div id="third">
+			Finally, you have to consider your contributions
+		</div>
+		
+		<table>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Contribution</th>
+			</tr>
+			<tr>
+				<td>Bridget</td>
+				<td>Kifordu</td>
+				<td>2000</td>
+			</tr>
+			<tr>
+				<td>Bright</td>
+				<td>Chimezie</td>
+				<td>$5000</td>
+			</tr>
+			<tr>
+				<td>Chika</td>
+				<td>Okafor</td>
+				<td>$1000</td>
+			</tr>
+			<p>Summary:</p>
+			<ul>
+				<li>Bridget</li>
+				<li>Kifordu</li>
+				<li>$500</li>
+			</ul>
+			<p>Ordered Summary:</p>
+			<ol>
+				<li>Bridget</li>
+				<li>Kifordu</li>
+				<li>$500</li>
+			</ol>
+			
+		</table>
+	</body>
+</html>
+ 
